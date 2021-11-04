@@ -44,6 +44,3 @@ Aceasta palera de culori este inspirata de tema site-ului [HackerRank](https://w
 [![](resources/ps2hack-color-scheme.png)](https://color.adobe.com/search?q=hackerrank)
 
 ## Questions
-
-1. iframe-tabs - bug la switch de tabs
-2. 
