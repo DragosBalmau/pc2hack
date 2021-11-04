@@ -9,123 +9,201 @@
     <link rel="icon"
           type="image/png"
           href="resources/favicon.ico">
+    <link rel="stylesheet" href="first_page_style.css">
 </head>
 <body>
-<header>
-    <a id="top"></a>
-    <h1>PC2Hack</h1>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a>
-                <ul>
-                    <li><a href="#welcome">Welcome</a></li>
-                    <li><a href="#promotions">Promotions</a></li>
+<div class="container">
+    <div class="page-content">
+        <header>
+            <img id="logo" src="resources/logo.png" alt="wallpaper">
+            <nav>
+                <label for="hamburger"><img src="resources/hamburger.png" alt="hamburger"></label>
+                <input type="checkbox" id="hamburger"/>
+                <ul class="menu">
+                    <li><a href="index.html">Home</a>
+                        <ul>
+                            <li><a href="#welcome">Welcome</a></li>
+                            <li><a href="#promotions">Promotions</a></li>
+                        </ul>
+                    </li>
+                    <!-- TODO de scos-->
+                    <li><a href="login.html">Log In</a></li>
+                    <li>
+                        <div><a href="laptop.html">Laptop</a></div>
+                        <ul>
+                            <li><a href="laptop.html#ultrabook">Ultrabook</a></li>
+                            <li><a href="laptop.html#notebook">Notebook/Laptop</a></li>
+                            <li><a href="laptop.html#accesories">Laptop accessories</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div><a href="pc.html">PC</a></div>
+                        <ul>
+                            <li><a href="pc.html#desktop">Desktop PC</a></li>
+                            <li><a href="pc.html#all-in-one">All-in-one PC</a></li>
+                            <li><a href="pc.html#mini">Mini PC</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="faq-section">FAQ</a></li>
+                    <li><a href="aboutus-section">About us</a></li>
                 </ul>
-            </li>
-            <li><a href="login.html">Log In</a></li>
-            <li>
-                <div><a href="laptop.html">Laptop</a></div>
+            </nav>
+        </header>
+        <div class="cover-images"><img src="resources/wallpaper.jpg" alt="wallpaper"></div>
+        <div class="table">
+            <table>
+                <tr>
+                    <th>Month</th>
+                    <th>Savings</th>
+                    <th>Savings</th>
+                    <th>Savings</th>
+                </tr>
+                <tr>
+                    <td>January</td>
+                    <td>$100</td>
+                    <td>$100</td>
+                    <td>$100</td>
+                </tr>
+                <tr>
+                    <td>February</td>
+                    <td>$80</td>
+                    <td>$80</td>
+                    <td>$80</td>
+                </tr>
+                <tr>
+                    <td>February</td>
+                    <td>$80</td>
+                    <td>$80</td>
+                    <td>$80</td>
+                </tr>
+                <tr>
+                    <td>February</td>
+                    <td>$80</td>
+                    <td>$80</td>
+                    <td>$80</td>
+                </tr>
+                <tr>
+                    <td>February</td>
+                    <td>$80</td>
+                    <td>$80</td>
+                    <td>$80</td>
+                </tr>
+                <tr>
+                    <td>February</td>
+                    <td>$80</td>
+                    <td>$80</td>
+                    <td>$80</td>
+                </tr>
+                <tr>
+                    <td>February</td>
+                    <td>$80</td>
+                    <td>$80</td>
+                    <td>$80</td>
+                </tr>
+            </table>
+        </div>
+        <div class="calendar"><img src="resources/calendar-2020-2021.png" alt="wallpaper"></div>
+        <div class="updates"><img src="resources/anunt.jpg" alt="wallpaper"></div>
+        <div class="online-users"><img src="resources/online-users.png" alt="wallpaper"></div>
+        <div class="user-stats"><img src="resources/stats.png" alt="wallpaper"></div>
+        <div class="server-status"><img src="resources/server-status.png" alt="wallpaper"></div>
+        <div class="content">
+            <aside id="faq-section">
+                <h2><abbr>FAQ (Frequently Asked Questions)</abbr></h2>
                 <ul>
-                    <li><a href="laptop.html#ultrabook">Ultrabook</a></li>
-                    <li><a href="laptop.html#notebook">Notebook/Laptop</a></li>
-                    <li><a href="laptop.html#accesories">Laptop accessories</a></li>
+                    <li>
+                        <section><h3>What are your warranty policies?</h3></section>
+                        <p>Our <strong>warranty policies</strong> are very customer-friendly and can be found <a
+                                href="warranty.html">here</a>.
+                        </p>
+                    </li>
+                    <li>
+                        <section><h3>Do you accept phone, fax, email or snail mail orders?</h3></section>
+                        <p>We accept these type orders for established customers only.</p>
+                    </li>
+                    <li>
+                        <section><h3>Do you sell or release my personal information?</h3></section>
+                        <p><b>A Big "No"!</b> We respect your privacy, and will never sell or in any other way give out
+                            any
+                            personal information about our customers, period.</p>
+                    </li>
+                    <li>
+                        <section><h3>How much do your computers cost?</h3></section>
+                        <p>This is kind of like asking how much does a car cost! ;-) We have systems to fit any budget,
+                            both
+                            new
+                            and used, so let us know your needs and we will be happy to come up with a quote for
+                            you.</p>
+                    </li>
+                    <li>
+                        <section><h3>How can I assemble my own computer?</h3></section>
+                        <p>We suggest you always use the expertise of a specialist. If you want to see how a specialist
+                            proceeds, we leave you two videos and <a
+                                    href="https://www.build-gaming-computers.com/how-to-assemble-a-pc.html"
+                                    target="_blank">this</a> article.</p>
+                        <div class="iframe-container">
+                            <iframe name="ifr-video" width="560" height="315"
+                                    src="https://www.youtube.com/embed/v7MYOpFONCU"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            <div class="iframe-tabs">
+                                <a href="https://www.youtube.com/embed/v7MYOpFONCU" target="ifr-video">Tutorial #1</a>
+                                <a href="https://www.youtube.com/embed/PXaLc9AYIcg" target="ifr-video">Tutorial #2</a>
+                            </div>
+                        </div>
+
+
+                    </li>
                 </ul>
-            </li>
-            <li>
-                <div><a href="pc.html">PC</a></div>
-                <ul>
-                    <li><a href="pc.html#desktop">Desktop PC</a></li>
-                    <li><a href="pc.html#all-in-one">All-in-one PC</a></li>
-                    <li><a href="pc.html#mini">Mini PC</a></li>
-                </ul>
-            </li>
-            <li><a href="faq-section">FAQ</a></li>
-            <li><a href="aboutus-section">About us</a></li>
-        </ul>
-    </nav>
-</header>
-<main>
-    <aside id="faq-section">
-        <h2><abbr>FAQ (Frequently Asked Questions)</abbr></h2>
-        <ul>
-            <li>
-                <section><h3>What are your warranty policies?</h3></section>
-                <p>Our <strong>warranty policies</strong> are very customer-friendly and can be found <a
-                        href="warranty.html">here</a>.
+            </aside>
+
+        </div>
+        <main>
+            <section id="aboutus-section">
+                <h2>About us</h2>
+                <section><h3>Our Company</h3></section>
+                <p>PC2Hack has been established for over 10 years and continues to provide an excellent level of service
+                    and
+                    support to all our customers.</p>
+                <section><h3>Our Commitment</h3></section>
+                <p>At PC2Hack we believe in customer satisfaction and strive to succeed in this.<br>
+                    When you deal with one of our technicians, you're dealing with a genuine computing enthusiast.
+                    You will experierince the advantage of working with someone who understands that every person or
+                    businesses
+                    needs are unique and we can work with you to fix an issue or create a new solution.<br>
+                    The truth is that we understand how important a reliable computer is in this modern world, and we
+                    have
+                    all
+                    the tools required to provide just that.
                 </p>
-            </li>
-            <li>
-                <section><h3>Do you accept phone, fax, email or snail mail orders?</h3></section>
-                <p>We accept these type orders for established customers only.</p>
-            </li>
-            <li>
-                <section><h3>Do you sell or release my personal information?</h3></section>
-                <p><b>A Big "No"!</b> We respect your privacy, and will never sell or in any other way give out any
-                    personal information about our customers, period.</p>
-            </li>
-            <li>
-                <section><h3>How much do your computers cost?</h3></section>
-                <p>This is kind of like asking how much does a car cost! ;-) We have systems to fit any budget, both new
-                    and used, so let us know your needs and we will be happy to come up with a quote for you.</p>
-            </li>
-            <li>
-                <section><h3>How can I assemble my own computer?</h3></section>
-                <p>We suggest you always use the expertise of a specialist. If you want to see how a specialist
-                    proceeds, we leave you two videos and <a
-                            href="https://www.build-gaming-computers.com/how-to-assemble-a-pc.html"
-                            target="_blank">this</a> article.</p>
+                <blockquote cite="https://en.wikiquote.org/wiki/Anonymous_(group)">
+                    <i>We are Anonymous. We are Legion. We do not forgive. We do not forget. Expect us.</i>
+                </blockquote>
+            </section>
 
-                <div class="taburi-iframe">
-                    <a href="https://www.youtube.com/embed/v7MYOpFONCU" target="ifr-video">Tutorial #1</a>
-                    <a href="https://www.youtube.com/embed/PXaLc9AYIcg" target="ifr-video">Tutorial #2</a>
-                </div>
+        </main>
+        <footer>
+            <a href="#" title="go up" id="link-top">
+                <div id="triangle"></div>
+            </a>
+            <address class="address">
+                <br>
+                <a href="mailto:contact@hack2pc.com">contact@hack2pc.com</a><br>
+                <a href="tel:+40755723299">(0040)755 723 299</a><br>
+                You can find us at:<br>
+                Calea Bucuresti 99<br>
+                Pitesti, Arges
+            </address>
 
-                <iframe name="ifr-video" width="560" height="315" src="https://www.youtube.com/embed/v7MYOpFONCU"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
-            </li>
-        </ul>
-    </aside>
+            <p>
+                <small>
+                    Copyright &copy;2021 Balmau Dragos Constantin
+                    <time datetime="2021-10-10">10-10-2021</time>
+                </small>
+            </p>
+        </footer>
+    </div>
 
-    <section id="aboutus-section">
-        <h2>About us</h2>
-        <section><h3>Our Company</h3></section>
-        <p>PC2Hack has been established for over 10 years and continues to provide an excellent level of service and
-            support to all our customers.</p>
-        <section><h3>Our Commitment</h3></section>
-        <p>At PC2Hack we believe in customer satisfaction and strive to succeed in this.<br>
-            When you deal with one of our technicians, you're dealing with a genuine computing enthusiast.
-            You will experierince the advantage of working with someone who understands that every person or businesses
-            needs are unique and we can work with you to fix an issue or create a new solution.<br>
-            The truth is that we understand how important a reliable computer is in this modern world, and we have all
-            the tools required to provide just that.
-        </p>
-
-
-        <blockquote cite="https://en.wikiquote.org/wiki/Anonymous_(group)">
-            <i>We are Anonymous. We are Legion. We do not forgive. We do not forget. Expect us.</i>
-        </blockquote>
-    </section>
-
-</main>
-<footer>
-    <a href="#top">Back to top</a>
-    <address>
-        <br>
-        <a href="mailto:contact@hack2pc.com">contact@hack2pc.com</a><br>
-        <a href="tel:+40755723299">(0040)755 723 299</a><br>
-        You can find us at:<br>
-        Calea Bucuresti 99<br>
-        Pitesti, Arges
-    </address>
-
-    <p>
-        <small>
-            Copyright &copy;2021 Balmau Dragos Constantin
-            <time datetime="2021-10-10">10-10-2021</time>
-        </small>
-    </p>
-</footer>
-
+</div>
 </body>
 </html>
