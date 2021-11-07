@@ -3,63 +3,62 @@
 <head>
     <meta name="description" content="Magazin de piese pentru computerul personal">
     <meta name="keywords" content="PC2Hack, PC, Shop, Personal Computer, Service, PC parts, CPU, GPU, RAM">
-    <%- include("../fragments/head.ejs")%>
+    <%- include("../fragments/head.ejs") %>
 </head>
 <body>
+<p id="watermark">BALMAU DRAGOS CONSTANTIN</p>
+<p id="absolut"></p>
 <div class="container">
     <div class="page-content">
         <%- include("../fragments/header.ejs") %>
         <div class="cover-images"><img src="/resources/images/wallpaper.jpg" alt="wallpaper"></div>
         <div class="table">
             <table>
-                <tr>
-                    <th>Month</th>
-                    <th>Savings</th>
-                    <th>Savings</th>
-                    <th>Savings</th>
-                </tr>
-                <tr>
-                    <td>January</td>
-                    <td>$100</td>
-                    <td>$100</td>
-                    <td>$100</td>
-                </tr>
-                <tr>
-                    <td>February</td>
-                    <td>$80</td>
-                    <td>$80</td>
-                    <td>$80</td>
-                </tr>
-                <tr>
-                    <td>February</td>
-                    <td>$80</td>
-                    <td>$80</td>
-                    <td>$80</td>
-                </tr>
-                <tr>
-                    <td>February</td>
-                    <td>$80</td>
-                    <td>$80</td>
-                    <td>$80</td>
-                </tr>
-                <tr>
-                    <td>February</td>
-                    <td>$80</td>
-                    <td>$80</td>
-                    <td>$80</td>
-                </tr>
-                <tr>
-                    <td>February</td>
-                    <td>$80</td>
-                    <td>$80</td>
-                    <td>$80</td>
-                </tr>
-                <tr>
-                    <td>February</td>
-                    <td>$80</td>
-                    <td>$80</td>
-                    <td>$80</td>
-                </tr>
+                <thead>
+                    <tr>
+                        <th>Top</th>
+                        <th class="color-table-column">Product</th>
+                        <th>Number of purchases</th>
+                        <th class="color-table-column">Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td class="color-table-column">SSD M2 Samsung 970 EVO</td>
+                        <td>1254</td>
+                        <td class="color-table-column">$100</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td class="color-table-column">SSD M2 Samsung 970 EVO PLUS</td>
+                        <td>1003</td>
+                        <td class="color-table-column">$180</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td class="color-table-column">RAM 2x16GB Corsair 3600Mhz</td>
+                        <td>954</td>
+                        <td class="color-table-column">$220</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td class="color-table-column">CPU Intel 11th Generation i7-11700K</td>
+                        <td>664</td>
+                        <td class="color-table-column">$300</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td class="color-table-column">CPU Intel 11th Generation i7-11700</td>
+                        <td>504</td>
+                        <td class="color-table-column">$250</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="4">This is the top 5 of the best selling products of this month.</td>
+                    </tr>
+                </tfoot>
             </table>
         </div>
         <div class="calendar"><img src="/resources/images/calendar-2020-2021.png" alt="wallpaper"></div>
@@ -74,61 +73,28 @@
         <div class="user-stats"><img src="/resources/images/stats.png" alt="wallpaper"></div>
         <div class="server-status"><img src="/resources/images/server-status.png" alt="wallpaper"></div>
         <div class="content">
-            <aside id="faq-section">
-                <h2><abbr>FAQ (Frequently Asked Questions)</abbr></h2>
-                <ul>
-                    <li>
-                        <section><h3>What are your warranty policies?</h3></section>
-                        <p>Our <strong>warranty policies</strong> are very customer-friendly and can be found <a
-                                    href="warranty.html">here</a>.
-                        </p>
-                    </li>
-                    <li>
-                        <section><h3>Do you accept phone, fax, email or snail mail orders?</h3></section>
-                        <p>We accept these type orders for established customers only.</p>
-                    </li>
-                    <li>
-                        <section><h3>Do you sell or release my personal information?</h3></section>
-                        <p><b>A Big "No"!</b> We respect your privacy, and will never sell or in any other way give out
-                            any
-                            personal information about our customers, period.</p>
-                    </li>
-                    <li>
-                        <section><h3>How much do your computers cost?</h3></section>
-                        <p>This is kind of like asking how much does a car cost! ;-) We have systems to fit any budget,
-                            both
-                            new
-                            and used, so let us know your needs and we will be happy to come up with a quote for
-                            you.</p>
-                    </li>
-                    <li>
-                        <section><h3>How can I assemble my own computer?</h3></section>
-                        <p>We suggest you always use the expertise of a specialist. If you want to see how a specialist
-                            proceeds, we leave you two videos and <a
-                                    href="https://www.build-gaming-computers.com/how-to-assemble-a-pc.html"
-                                    target="_blank">this</a> article.</p>
-                        <div class="iframe-container">
-                            <iframe name="ifr-video" width="560" height="315"
-                                    src="https://www.youtube.com/embed/v7MYOpFONCU"
-                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                    allowfullscreen></iframe>
-                            <div class="iframe-tabs">
-                                <a href="https://www.youtube.com/embed/v7MYOpFONCU" target="ifr-video">Tutorial #1</a>
-                                <a href="https://www.youtube.com/embed/PXaLc9AYIcg" target="ifr-video">Tutorial #2</a>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-            </aside>
+            <video controls style="width:80%;height:auto" poster="/resources/images/anonymous_thumbnail.png">
+                <source src="resources/video/anonymous-video.mp4" type="video/mp4">
+                <source src="resources/video/anonymous-video.ogv" type="video/ogv">
+                <!--<track  src="data:image/png;base64, V0VCVlRUIC0gU29tZSB0aXRsZQoKMDA6MDAuMDAwIC0tPiAwMDowMy4wMDAKbyBzxIMgcHJpbmQgbXVsyJtpIMiZb2FyZWNpIS4uLi4uCgowMDowMy4wMDAgLS0+IDAwOjA3LjAwMAp1bmRlIHBsZWNhdGksIG3Eg8SDxIPEg8SDxIM/IS4uLi4KCjAwOjA5LjAwMCAtLT4gMDA6MTQuMDAwCkNoacibISBDaGnImyEgQ2hpyJshIENoacibISAKCjAwOjE0LjUwMCAtLT4gMDA6MTkuMDAwCk1pYXUhIERlemFtxINnaXJlLi4uLgoK" kind="captions" srclang="ro" label="romana" />-->
 
+                <track src="resources/video/tracks/captions-ro.vtt"
+                       kind="captions"
+                       srclang="ro"
+                       label="romană"/>
+
+                <track default src="resources/video/tracks/captions-en.vtt"
+                       kind="captions"
+                       srclang="en"
+                       label="english"/>
+            </video>
         </div>
         <main>
             <section id="aboutus-section">
                 <h2>About us</h2>
                 <section><h3>Our Company</h3></section>
-                <p>PC2Hack has been established for over 10 years and continues to provide an excellent level of service
-                    and
-                    support to all our customers.</p>
+                <p>PC2Hack has been established for over 10 years and continues to provide an excellent level of service and support to all our customers.</p>
+                <hr>
                 <section><h3>Our Commitment</h3></section>
                 <p>At PC2Hack we believe in customer satisfaction and strive to succeed in this.<br>
                     When you deal with one of our technicians, you're dealing with a genuine computing enthusiast.
@@ -145,7 +111,7 @@
                 </blockquote>
             </section>
         </main>
-        <%- include("../fragments/footer")%>
+        <%- include("../fragments/footer") %>
     </div>
 </div>
 </body>
