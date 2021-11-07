@@ -41,6 +41,6 @@ Acest repo contine proiectul final la materia Tehnici Web si urmeaza sa fie un P
 
 Aceasta palera de culori este inspirata de tema site-ului [HackerRank](https://www.hackerrank.com/) si evidentiaza imbinarea unei teme de hacker cu cea a unui PC shop. Culorile sunt specifice domeniului si sunt foarte atragatoare pentru pasionati.
 
-[![](resources/ps2hack-color-scheme.png)](https://color.adobe.com/search?q=hackerrank)
+[![](resources/images/ps2hack-color-scheme.png)](https://color.adobe.com/search?q=hackerrank)
 
 ## Questions
