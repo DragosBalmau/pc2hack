@@ -1,0 +1,31 @@
+<section id="galerie-statica">
+    <h2>Galerie</h2>
+    <div id="grid-galerie">
+        <%
+        const dimineata = {start : 5 * 60, end: 11 * 60 + 59}
+        const zi = {start : 12 * 60, end: 19 * 60 + 59}
+
+        const date = new Date();
+        const now = date.getHours() * 60 + date.getMinutes();
+
+        let time;
+        if(dimineata.start <= now && now <= dimineata.end)
+            time = "dimineata";
+        else {
+            if (zi.start <= now && now <= zi.end)
+                time = "zi";
+            else
+                time = "noapte";
+        }
+        for (let image of locals.globalImages){
+            if (image.timp === time){ %>
+        <figure>
+            <picture>
+                <source srcset="/<%- image.mic%>" media="(max-width:700px)"/>
+                <img src="/<%- locals.path + "/" + image.cale_relativa %>" alt="text"/>
+            </picture>
+            <figcaption><%-image.descriere%></figcaption>
+        </figure>
+        <% } }%>
+    </div>
+</section>

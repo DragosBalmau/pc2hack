@@ -1,0 +1,113 @@
+{
+  "cale_galerie": "resources/images/gallery",
+  "imagini": [
+    {
+      "cale_relativa": "laptop1.jpg",
+      "nume": "Nume imagine",
+      "descriere": "text descriere",
+      "timp": "dimineata"
+    },
+    {
+      "cale_relativa": "pc1.jpg",
+      "nume": "Nume imagine",
+      "descriere": "text descriere",
+      "timp": "dimineata"
+    },
+    {
+      "cale_relativa": "laptop2.jpg",
+      "nume": "Nume imagine",
+      "descriere": "text descriere",
+      "timp": "dimineata"
+    },
+    {
+      "cale_relativa": "pc2.jpg",
+      "nume": "Nume imagine",
+      "descriere": "text descriere",
+      "timp": "dimineata"
+    },
+    {
+      "cale_relativa": "laptop3.jpg",
+      "nume": "Nume imagine",
+      "descriere": "text descriere",
+      "timp": "dimineata"
+    },
+    {
+      "cale_relativa": "pc3.jpg",
+      "nume": "Nume imagine",
+      "descriere": "text descriere",
+      "timp": "dimineata"
+    },
+    {
+      "cale_relativa": "laptop4.jpg",
+      "nume": "Nume imagine",
+      "descriere": "text descriere",
+      "timp": "zi"
+    },
+    {
+      "cale_relativa": "pc4.jpg",
+      "nume": "Nume imagine",
+      "descriere": "text descriere",
+      "timp": "zi"
+    },
+    {
+      "cale_relativa": "laptop5.png",
+      "nume": "Nume imagine",
+      "descriere": "text descriere",
+      "timp": "zi"
+    },
+    {
+      "cale_relativa": "pc5.jpg",
+      "nume": "Nume imagine",
+      "descriere": "text descriere",
+      "timp": "zi"
+    },
+    {
+      "cale_relativa": "laptop6.jpg",
+      "nume": "Nume imagine",
+      "descriere": "text descriere",
+      "timp": "zi"
+    },
+    {
+      "cale_relativa": "pc6.jpg",
+      "nume": "Nume imagine",
+      "descriere": "text descriere",
+      "timp": "zi"
+    },
+    {
+      "cale_relativa": "laptop7.jpg",
+      "nume": "Nume imagine",
+      "descriere": "text descriere",
+      "timp": "noapte"
+    },
+    {
+      "cale_relativa": "pc7.png",
+      "nume": "Nume imagine",
+      "descriere": "text descriere",
+      "timp": "noapte"
+    },
+    {
+      "cale_relativa": "laptop8.jpg",
+      "nume": "Nume imagine",
+      "descriere": "text descriere",
+      "timp": "noapte"
+    },
+    {
+      "cale_relativa": "pc8.jpg",
+      "nume": "Nume imagine",
+      "descriere": "text descriere",
+      "timp": "noapte"
+    },
+    {
+      "cale_relativa": "laptop9.jpg",
+      "nume": "Nume imagine",
+      "descriere": "text descriere",
+      "timp": "noapte"
+    },
+    {
+      "cale_relativa": "pc9.jpg",
+      "nume": "Nume imagine",
+      "descriere": "text descriere",
+      "timp": "noapte"
+    }
+  ]
+}
